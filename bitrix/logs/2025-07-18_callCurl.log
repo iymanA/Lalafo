@@ -1,0 +1,1310 @@
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 200
+            [header_size] => 1091
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.367037
+            [namelookup_time] => 0.081698
+            [connect_time] => 0.087706
+            [pretransfer_time] => 0.103481
+            [size_upload] => 75
+            [size_download] => 395
+            [speed_download] => 1076
+            [speed_upload] => 204
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.366878
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 195.49.210.161
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 43288
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 103392
+            [connect_time_us] => 87706
+            [namelookup_time_us] => 81698
+            [pretransfer_time_us] => 103481
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 366878
+            [posttransfer_time_us] => 103480
+            [total_time_us] => 367037
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+        )
+
+    [result] => Array
+        (
+            [result] => Array
+                (
+                    [ID] => 27
+                    [ADMIN] => 1
+                    [NAME] => Ыйман
+                    [LAST_NAME] => Асанкожоев
+                    [PERSONAL_GENDER] => 
+                    [TIME_ZONE] => Europe/Moscow
+                )
+
+            [time] => Array
+                (
+                    [start] => 1752821128.1836
+                    [finish] => 1752821128.2344
+                    [duration] => 0.050783157348633
+                    [processing] => 0.011003017425537
+                    [date_start] => 2025-07-18T09:45:28+03:00
+                    [date_finish] => 2025-07-18T09:45:28+03:00
+                    [operating_reset_at] => 1752821728
+                    [operating] => 0
+                )
+
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 200
+            [header_size] => 1095
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.374638
+            [namelookup_time] => 0.083559
+            [connect_time] => 0.108729
+            [pretransfer_time] => 0.140628
+            [size_upload] => 75
+            [size_download] => 397
+            [speed_download] => 1059
+            [speed_upload] => 200
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.374485
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 194.31.159.64
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 57642
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 140541
+            [connect_time_us] => 108729
+            [namelookup_time_us] => 83559
+            [pretransfer_time_us] => 140628
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 374485
+            [posttransfer_time_us] => 140627
+            [total_time_us] => 374638
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+        )
+
+    [result] => Array
+        (
+            [result] => Array
+                (
+                    [ID] => 27
+                    [ADMIN] => 1
+                    [NAME] => Ыйман
+                    [LAST_NAME] => Асанкожоев
+                    [PERSONAL_GENDER] => 
+                    [TIME_ZONE] => Europe/Moscow
+                )
+
+            [time] => Array
+                (
+                    [start] => 1752821129.0605
+                    [finish] => 1752821129.1093
+                    [duration] => 0.048805952072144
+                    [processing] => 0.014280080795288
+                    [date_start] => 2025-07-18T09:45:29+03:00
+                    [date_finish] => 2025-07-18T09:45:29+03:00
+                    [operating_reset_at] => 1752821729
+                    [operating] => 0
+                )
+
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 200
+            [header_size] => 1095
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.280503
+            [namelookup_time] => 0.070286
+            [connect_time] => 0.094808
+            [pretransfer_time] => 0.141117
+            [size_upload] => 75
+            [size_download] => 395
+            [speed_download] => 1408
+            [speed_upload] => 267
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.280354
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 194.31.159.67
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 36448
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 141065
+            [connect_time_us] => 94808
+            [namelookup_time_us] => 70286
+            [pretransfer_time_us] => 141117
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 280354
+            [posttransfer_time_us] => 141117
+            [total_time_us] => 280503
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+        )
+
+    [result] => Array
+        (
+            [result] => Array
+                (
+                    [ID] => 27
+                    [ADMIN] => 1
+                    [NAME] => Ыйман
+                    [LAST_NAME] => Асанкожоев
+                    [PERSONAL_GENDER] => 
+                    [TIME_ZONE] => Europe/Moscow
+                )
+
+            [time] => Array
+                (
+                    [start] => 1752821132.1287
+                    [finish] => 1752821132.1655
+                    [duration] => 0.036756038665771
+                    [processing] => 0.0064730644226074
+                    [date_start] => 2025-07-18T09:45:32+03:00
+                    [date_finish] => 2025-07-18T09:45:32+03:00
+                    [operating_reset_at] => 1752821732
+                    [operating] => 0
+                )
+
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 200
+            [header_size] => 1089
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.233027
+            [namelookup_time] => 0.083625
+            [connect_time] => 0.090302
+            [pretransfer_time] => 0.105899
+            [size_upload] => 75
+            [size_download] => 398
+            [speed_download] => 1707
+            [speed_upload] => 321
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.232873
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 195.49.210.56
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 50018
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 105835
+            [connect_time_us] => 90302
+            [namelookup_time_us] => 83625
+            [pretransfer_time_us] => 105899
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 232873
+            [posttransfer_time_us] => 105898
+            [total_time_us] => 233027
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+        )
+
+    [result] => Array
+        (
+            [result] => Array
+                (
+                    [ID] => 27
+                    [ADMIN] => 1
+                    [NAME] => Ыйман
+                    [LAST_NAME] => Асанкожоев
+                    [PERSONAL_GENDER] => 
+                    [TIME_ZONE] => Europe/Moscow
+                )
+
+            [time] => Array
+                (
+                    [start] => 1752821155.7273
+                    [finish] => 1752821155.7553
+                    [duration] => 0.027963876724243
+                    [processing] => 0.0030090808868408
+                    [date_start] => 2025-07-18T09:45:55+03:00
+                    [date_finish] => 2025-07-18T09:45:55+03:00
+                    [operating_reset_at] => 1752821755
+                    [operating] => 0
+                )
+
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 200
+            [header_size] => 1089
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.235716
+            [namelookup_time] => 0.071441
+            [connect_time] => 0.077889
+            [pretransfer_time] => 0.089913
+            [size_upload] => 75
+            [size_download] => 396
+            [speed_download] => 1679
+            [speed_upload] => 318
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.235566
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 195.49.210.187
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 49044
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 89847
+            [connect_time_us] => 77889
+            [namelookup_time_us] => 71441
+            [pretransfer_time_us] => 89913
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 235566
+            [posttransfer_time_us] => 89913
+            [total_time_us] => 235716
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+        )
+
+    [result] => Array
+        (
+            [result] => Array
+                (
+                    [ID] => 27
+                    [ADMIN] => 1
+                    [NAME] => Ыйман
+                    [LAST_NAME] => Асанкожоев
+                    [PERSONAL_GENDER] => 
+                    [TIME_ZONE] => Europe/Moscow
+                )
+
+            [time] => Array
+                (
+                    [start] => 1752821156.4796
+                    [finish] => 1752821156.518
+                    [duration] => 0.038424015045166
+                    [processing] => 0.0064048767089844
+                    [date_start] => 2025-07-18T09:45:56+03:00
+                    [date_finish] => 2025-07-18T09:45:56+03:00
+                    [operating_reset_at] => 1752821756
+                    [operating] => 0
+                )
+
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://oauth.bitrix.info/oauth/token/
+    [info] => Array
+        (
+            [url] => https://oauth.bitrix.info/oauth/token/
+            [content_type] => application/json
+            [http_code] => 200
+            [header_size] => 388
+            [request_size] => 283
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.572855
+            [namelookup_time] => 0.084085
+            [connect_time] => 0.202714
+            [pretransfer_time] => 0.445399
+            [size_upload] => 109
+            [size_download] => 24
+            [speed_download] => 41
+            [speed_upload] => 190
+            [download_content_length] => -1
+            [upload_content_length] => 109
+            [starttransfer_time] => 0.572752
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 18.201.1.1
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 56566
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 445047
+            [connect_time_us] => 202714
+            [namelookup_time_us] => 84085
+            [pretransfer_time_us] => 445399
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 572752
+            [posttransfer_time_us] => 445396
+            [total_time_us] => 572855
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [this_auth] => Y
+            [params] => Array
+                (
+                    [client_id] => 
+                    [grant_type] => refresh_token
+                    [client_secret] => 
+                    [refresh_token] => c26fa168007a6ee00074a1940000001b000007f38e98d459ebc3acf2fd7a49531b14a2
+                )
+
+        )
+
+    [result] => Array
+        (
+            [error] => wrong_client
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 401
+            [header_size] => 640
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.218016
+            [namelookup_time] => 0.078158
+            [connect_time] => 0.083918
+            [pretransfer_time] => 0.098072
+            [size_upload] => 75
+            [size_download] => 86
+            [speed_download] => 394
+            [speed_upload] => 344
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.21789
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 195.49.210.187
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 33416
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 97938
+            [connect_time_us] => 83918
+            [namelookup_time_us] => 78158
+            [pretransfer_time_us] => 98072
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 217890
+            [posttransfer_time_us] => 98071
+            [total_time_us] => 218016
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+            [this_auth] => N
+        )
+
+    [result] => Array
+        (
+            [error] => expired_token
+            [error_description] => The access token provided has expired.
+            [error_information] => expired token, cant get new auth? Check access oauth server.
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 401
+            [header_size] => 640
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.412016
+            [namelookup_time] => 0.119193
+            [connect_time] => 0.139485
+            [pretransfer_time] => 0.169378
+            [size_upload] => 75
+            [size_download] => 86
+            [speed_download] => 208
+            [speed_upload] => 182
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.41189
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 194.31.159.64
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 46904
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 169258
+            [connect_time_us] => 139485
+            [namelookup_time_us] => 119193
+            [pretransfer_time_us] => 169378
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 411890
+            [posttransfer_time_us] => 169376
+            [total_time_us] => 412016
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+        )
+
+    [result] => Array
+        (
+            [error] => expired_token
+            [error_description] => The access token provided has expired.
+            [error_information] => expired token, cant get new auth? Check access oauth server.
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://oauth.bitrix.info/oauth/token/
+    [info] => Array
+        (
+            [url] => https://oauth.bitrix.info/oauth/token/
+            [content_type] => application/json
+            [http_code] => 200
+            [header_size] => 388
+            [request_size] => 309
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.565942
+            [namelookup_time] => 0.087225
+            [connect_time] => 0.203468
+            [pretransfer_time] => 0.441402
+            [size_upload] => 135
+            [size_download] => 24
+            [speed_download] => 42
+            [speed_upload] => 238
+            [download_content_length] => -1
+            [upload_content_length] => 135
+            [starttransfer_time] => 0.565843
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 18.201.1.1
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 46768
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 441159
+            [connect_time_us] => 203468
+            [namelookup_time_us] => 87225
+            [pretransfer_time_us] => 441402
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 565843
+            [posttransfer_time_us] => 441400
+            [total_time_us] => 565942
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [this_auth] => Y
+            [params] => Array
+                (
+                    [client_id] => 
+                    [grant_type] => refresh_token
+                    [client_secret] => 
+                    [refresh_token] => c26fa168007a6ee00074a1940000001b000007f38e98d459ebc3acf2fd7a49531b14a2
+                )
+
+        )
+
+    [result] => Array
+        (
+            [error] => wrong_client
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 401
+            [header_size] => 640
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.252404
+            [namelookup_time] => 0.085564
+            [connect_time] => 0.110841
+            [pretransfer_time] => 0.140429
+            [size_upload] => 75
+            [size_download] => 86
+            [speed_download] => 340
+            [speed_upload] => 297
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.252354
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 194.31.159.67
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 33334
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 140313
+            [connect_time_us] => 110841
+            [namelookup_time_us] => 85564
+            [pretransfer_time_us] => 140429
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 252354
+            [posttransfer_time_us] => 140428
+            [total_time_us] => 252404
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+            [this_auth] => N
+        )
+
+    [result] => Array
+        (
+            [error] => expired_token
+            [error_description] => The access token provided has expired.
+            [error_information] => expired token, cant get new auth? Check access oauth server.
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 401
+            [header_size] => 640
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.235193
+            [namelookup_time] => 0.083844
+            [connect_time] => 0.090074
+            [pretransfer_time] => 0.117673
+            [size_upload] => 75
+            [size_download] => 86
+            [speed_download] => 365
+            [speed_upload] => 318
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.235071
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 195.49.210.187
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 50934
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 117569
+            [connect_time_us] => 90074
+            [namelookup_time_us] => 83844
+            [pretransfer_time_us] => 117673
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 235071
+            [posttransfer_time_us] => 117672
+            [total_time_us] => 235193
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+        )
+
+    [result] => Array
+        (
+            [error] => expired_token
+            [error_description] => The access token provided has expired.
+            [error_information] => expired token, cant get new auth? Check access oauth server.
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://oauth.bitrix.info/oauth/token/
+    [info] => Array
+        (
+            [url] => https://oauth.bitrix.info/oauth/token/
+            [content_type] => application/json
+            [http_code] => 200
+            [header_size] => 388
+            [request_size] => 309
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.576093
+            [namelookup_time] => 0.080694
+            [connect_time] => 0.201094
+            [pretransfer_time] => 0.447481
+            [size_upload] => 135
+            [size_download] => 24
+            [speed_download] => 41
+            [speed_upload] => 234
+            [download_content_length] => -1
+            [upload_content_length] => 135
+            [starttransfer_time] => 0.575998
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 18.201.1.1
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 47754
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 447088
+            [connect_time_us] => 201094
+            [namelookup_time_us] => 80694
+            [pretransfer_time_us] => 447481
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 575998
+            [posttransfer_time_us] => 447478
+            [total_time_us] => 576093
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [this_auth] => Y
+            [params] => Array
+                (
+                    [client_id] => 
+                    [grant_type] => refresh_token
+                    [client_secret] => 
+                    [refresh_token] => c26fa168007a6ee00074a1940000001b000007f38e98d459ebc3acf2fd7a49531b14a2
+                )
+
+        )
+
+    [result] => Array
+        (
+            [error] => wrong_client
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 401
+            [header_size] => 640
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.268647
+            [namelookup_time] => 0.103845
+            [connect_time] => 0.128852
+            [pretransfer_time] => 0.158856
+            [size_upload] => 75
+            [size_download] => 86
+            [speed_download] => 320
+            [speed_upload] => 279
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.268526
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 194.31.159.67
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 54840
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 158747
+            [connect_time_us] => 128852
+            [namelookup_time_us] => 103845
+            [pretransfer_time_us] => 158856
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 268526
+            [posttransfer_time_us] => 158855
+            [total_time_us] => 268647
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+            [this_auth] => N
+        )
+
+    [result] => Array
+        (
+            [error] => expired_token
+            [error_description] => The access token provided has expired.
+            [error_information] => expired token, cant get new auth? Check access oauth server.
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 401
+            [header_size] => 640
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.283017
+            [namelookup_time] => 0.109282
+            [connect_time] => 0.134005
+            [pretransfer_time] => 0.177356
+            [size_upload] => 75
+            [size_download] => 86
+            [speed_download] => 303
+            [speed_upload] => 265
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.282902
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 194.31.159.64
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 43672
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 176681
+            [connect_time_us] => 134005
+            [namelookup_time_us] => 109282
+            [pretransfer_time_us] => 177356
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 282902
+            [posttransfer_time_us] => 177353
+            [total_time_us] => 283017
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+        )
+
+    [result] => Array
+        (
+            [error] => expired_token
+            [error_description] => The access token provided has expired.
+            [error_information] => expired token, cant get new auth? Check access oauth server.
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://oauth.bitrix.info/oauth/token/
+    [info] => Array
+        (
+            [url] => https://oauth.bitrix.info/oauth/token/
+            [content_type] => application/json
+            [http_code] => 200
+            [header_size] => 388
+            [request_size] => 309
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.562846
+            [namelookup_time] => 0.070876
+            [connect_time] => 0.190547
+            [pretransfer_time] => 0.433095
+            [size_upload] => 135
+            [size_download] => 24
+            [speed_download] => 42
+            [speed_upload] => 239
+            [download_content_length] => -1
+            [upload_content_length] => 135
+            [starttransfer_time] => 0.562746
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 18.201.1.1
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 47756
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 433002
+            [connect_time_us] => 190547
+            [namelookup_time_us] => 70876
+            [pretransfer_time_us] => 433095
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 562746
+            [posttransfer_time_us] => 433094
+            [total_time_us] => 562846
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [this_auth] => Y
+            [params] => Array
+                (
+                    [client_id] => 
+                    [grant_type] => refresh_token
+                    [client_secret] => 
+                    [refresh_token] => c26fa168007a6ee00074a1940000001b000007f38e98d459ebc3acf2fd7a49531b14a2
+                )
+
+        )
+
+    [result] => Array
+        (
+            [error] => wrong_client
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 401
+            [header_size] => 640
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.29927
+            [namelookup_time] => 0.114182
+            [connect_time] => 0.1387
+            [pretransfer_time] => 0.19276
+            [size_upload] => 75
+            [size_download] => 86
+            [speed_download] => 287
+            [speed_upload] => 250
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.299218
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 194.31.159.67
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 54842
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 192630
+            [connect_time_us] => 138700
+            [namelookup_time_us] => 114182
+            [pretransfer_time_us] => 192760
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 299218
+            [posttransfer_time_us] => 192759
+            [total_time_us] => 299270
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+            [this_auth] => N
+        )
+
+    [result] => Array
+        (
+            [error] => expired_token
+            [error_description] => The access token provided has expired.
+            [error_information] => expired token, cant get new auth? Check access oauth server.
+        )
+
+)
+
+----------------------------------------
+Array
+(
+    [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+    [info] => Array
+        (
+            [url] => https://b24-kvdvd3.bitrix24.kz/rest/profile.json
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 401
+            [header_size] => 640
+            [request_size] => 258
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.257426
+            [namelookup_time] => 0.104365
+            [connect_time] => 0.124568
+            [pretransfer_time] => 0.1497
+            [size_upload] => 75
+            [size_download] => 86
+            [speed_download] => 334
+            [speed_upload] => 291
+            [download_content_length] => -1
+            [upload_content_length] => 75
+            [starttransfer_time] => 0.257301
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 194.31.159.64
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.169
+            [local_port] => 43680
+            [http_version] => 3
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => https
+            [appconnect_time_us] => 149589
+            [connect_time_us] => 124568
+            [namelookup_time_us] => 104365
+            [pretransfer_time_us] => 149700
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 257301
+            [posttransfer_time_us] => 149699
+            [total_time_us] => 257426
+            [effective_method] => POST
+            [capath] => 
+            [cainfo] => /etc/ssl/certs/ca-certificates.crt
+        )
+
+    [params] => Array
+        (
+            [method] => profile
+            [params] => Array
+                (
+                    [auth] => d2f07968007a6ee00074a1940000001b00000749f53114ae47505e1f31b59160a810aa
+                )
+
+        )
+
+    [result] => Array
+        (
+            [error] => expired_token
+            [error_description] => The access token provided has expired.
+            [error_information] => expired token, cant get new auth? Check access oauth server.
+        )
+
+)
+
+----------------------------------------
