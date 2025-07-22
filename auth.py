@@ -8,24 +8,26 @@ import threading
 import asyncio
 import time
 import websockets
-
+from bitrix24 import Bitrix24
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from dotenv import load_dotenv
+import os
 
 # === CONFIG ===
-SECRET_KEY = "secret"
+load_dotenv()
+SECRET_KEY = os.getenv("SECRET_KEY", "secret")
 ALGORITHM = "HS256"
+BITRIX_WEBHOOK_URL = os.getenv("BITRIX_WEBHOOK_URL", "https://your-domain.bitrix24.ru/rest/1/your-webhook-code/")
+BITRIX_DOMAIN = os.getenv("BITRIX_DOMAIN", "your-domain.bitrix24.ru")
 
 app = FastAPI()
 clients = []
-
-@app.get("/")
-async def root():
-    return {"message": "FastAPI сервер работает"}
+bx = Bitrix24(BITRIX_WEBHOOK_URL)
 
 # === Global State ===
 driver_ref = {
@@ -112,14 +114,13 @@ async def send_message_to_ws(message: str):
     async with websockets.connect(uri) as websocket:
         await websocket.send(message)
 
-# === Получить все сообщения конкретного чата ===
+# === LALAFO ===
 @app.get("/messages/{chat_number}")
 def get_messages(chat_number: int = Path(..., description="Номер чата")):
     msgs = messages_by_chat.get(chat_number, [])
     formatted = [f"Я: {m['text']}" if m['from'] == 'me' else f"Он: {m['text']}" for m in msgs]
     return {"chat_number": chat_number, "messages": formatted}
 
-# === Отправить сообщение ===
 @app.post("/send")
 def send_message(data: MessageData):
     global listening, current_chat_number
@@ -164,16 +165,12 @@ def send_message(data: MessageData):
                         text = msg.text.strip()
                         if text and text not in driver_ref["seen_messages"]:
                             driver_ref["seen_messages"].add(text)
-
-                            # Пропустить если это наше сообщение
                             if text in driver_ref["last_sent"]:
                                 driver_ref["last_sent"].remove(text)
                                 continue
-
                             messages_by_chat.setdefault(current_chat_number, []).append({"from": "client", "text": text})
                             print(f"\n\U0001F4E5 {text}")
                             asyncio.run(send_message_to_ws(text))
-
                     driver_ref["driver"].execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", driver_ref["messages_container"])
                     time.sleep(2)
                 except Exception as e:
@@ -185,11 +182,9 @@ def send_message(data: MessageData):
             threading.Thread(target=listen_loop, daemon=True).start()
 
         return {"status": "ok", "message": f"Я: {data.message}"}
-
     except Exception as e:
         return {"status": "error", "error": str(e)}
 
-# === Вход и запуск браузера ===
 @app.post("/start")
 def start_session(data: SessionData):
     def run():
@@ -197,7 +192,6 @@ def start_session(data: SessionData):
     threading.Thread(target=run, daemon=True).start()
     return {"status": "started"}
 
-# === Логин в selenium ===
 def selenium_login_only(username, password):
     options = Options()
     options.add_argument("--disable-notifications")
@@ -236,6 +230,26 @@ def selenium_login_only(username, password):
         print("\U0001F512 Успешный вход и переход к чатам.")
     except Exception as e:
         print("\u274C Ошибка входа:", e)
+
+# === BITRIX24 ===
+@app.post("/bitrix/message")
+async def receive_bitrix_message(data: MessageData):
+    messages_by_chat.setdefault(int(data.chat_number), []).append({"from": "me", "text": data.message})
+    await send_message_to_ws(f"Bitrix24 [{data.chat_number}]: {data.message}")
+    return {"status": "ok", "message": f"Received from PHP: {data.message}"}
+
+@app.get("/bitrix/chats")
+async def receive_bitrix_chats(data: dict):
+    return {"status": "ok", "chats": data['chats']}
+
+@app.post("/bitrix/webhook")
+async def bitrix_webhook(data: dict):
+    if data.get('event') == 'ONIMMESSAGEADD':
+        chat_id = data['data']['CHAT_ID']
+        message = data['data']['MESSAGE']
+        messages_by_chat.setdefault(int(chat_id), []).append({"from": "client", "text": message})
+        await send_message_to_ws(f"Bitrix24 [{chat_id}]: {message}")
+    return {"status": "ok"}
 
 # === Запуск ===
 if __name__ == "__main__":

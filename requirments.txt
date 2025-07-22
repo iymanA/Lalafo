@@ -2,5 +2,8 @@ fastapi
 pydantic
 uvicorn
 bcrypt
-PYjwt
-websocket
+pyjwt
+websockets
+selenium
+python-bitrix24
+python-dotenv
